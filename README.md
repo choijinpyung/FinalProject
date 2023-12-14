@@ -160,7 +160,6 @@
 #### 형준 : https://github.com/Limchard
 #### 성경 : https://github.com/hsgyeong
 #### 성신 : https://github.com/ssung2sin
-#### 진평 : https://github.com/choijinpyung
 #### 성현 : https://github.com/dawn-sh
 
 <br>
