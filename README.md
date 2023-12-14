@@ -99,7 +99,7 @@
 
 ### 숙소 정보
 
-<br>
+<br><br>
 
 <img src="/image/accom.gif" width="80%">
 
@@ -107,7 +107,7 @@
 
 ### 방 정보
 
-<br>
+<br><br>
 
 <img src="/image/room.gif" width="80%">
 
@@ -115,7 +115,7 @@
 
 ### 호텔 상세 정보1
 
-<br>
+<br><br>
 
 <img src="/image/detailinfo.gif" width="80%">
 
@@ -123,7 +123,7 @@
 
 ### 호텔 상세 정보2
 
-<br>
+<br><br>
 
 <img src="/image/detailselect.png" width="80%">
 
@@ -131,7 +131,7 @@
 
 ### 호텔 상세 정보3
 
-<br>
+<br><br>
 
 <img src="/image/detaillocation.png" width="80%">
 
@@ -139,7 +139,7 @@
 
 ### 리뷰, 별점
 
-<br>
+<br><br>
 
 <img src="/image/detailreview.gif" width="80%">
 
