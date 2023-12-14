@@ -88,7 +88,12 @@
 ## 🎥 구현 영상
 <br>
 
-<img src="" width=""> 자기 영상 넣어주시고 width 값 조정해주세요
+<img src="/image/accom.gif" width="350">
+<img src="/image/room.gif" width="350">
+<img src="/image/detailinfo.gif" width="350">
+<img src="/image/detailselect.png" width="350">
+<img src="/image/detaillocation.png" width="350">
+<img src="/image/detailreview.gif" width="350">
 
 </div>
 
