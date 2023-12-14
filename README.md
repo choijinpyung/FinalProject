@@ -1,6 +1,9 @@
 <div align="center">
+  
 <br>
+
 <img src="SistFinalProject/src/main/resources/static/TRIVIEW2.png" width="200">
+
 </div>
 
 <div align="center">
@@ -10,6 +13,7 @@
 ###  🔥 겨울엔 따뜻하게 🔥
 ###  🌊 여름엔 시원하게 🌊
 ###  호텔 예약은 TRIVEW !
+
 <br>
 
 #### TRIP + VIEW
@@ -22,6 +26,7 @@
 <div align="center">
   
 ## 🔍 주요 기능
+
 <br>
 
 #### 메인 페이지, 카카오톡 상담 및 1대1 채팅, 다양한 사용자 기능, 효율적인 검색 기능
@@ -33,6 +38,7 @@
 <div align="center">
   
 ## 📆 프로젝트 개발 기간
+
 <br>
 
 #### 'TRIVEW'는 여행과 숙소를 하나로 묶어 사용자에게 편리하고 특별한 경험을 제공하기 위해 기획되었습니다.
@@ -46,6 +52,7 @@
 <div align="center">
   
 ## ⚙️ 개발 언어 및 개발 환경
+
 <br><br>
 
 <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
@@ -71,6 +78,7 @@
 <div align="center">
 
 ## 💁🏻‍♂️ 역할분담
+
 <br>
 
 #### 형준 : 메인 페이지, 카카오톡 상담, 1대1 채팅
@@ -86,22 +94,65 @@
 <div align="center">
   
 ## 🎥 구현 영상
+
 <br>
 
-<img src="/image/accom.gif" width="350">
-<img src="/image/room.gif" width="350">
-<img src="/image/detailinfo.gif" width="350">
-<img src="/image/detailselect.png" width="350">
-<img src="/image/detaillocation.png" width="350">
-<img src="/image/detailreview.gif" width="350">
+### 숙소 정보
+
+<br>
+
+<img src="/image/accom.gif" width="80%">
+
+<br><br>
+
+### 방 정보
+
+<br>
+
+<img src="/image/room.gif" width="80%">
+
+<br><br>
+
+### 호텔 상세 정보1
+
+<br>
+
+<img src="/image/detailinfo.gif" width="80%">
+
+<br><br>
+
+### 호텔 상세 정보2
+
+<br>
+
+<img src="/image/detailselect.png" width="80%">
+
+<br><br>
+
+### 호텔 상세 정보3
+
+<br>
+
+<img src="/image/detaillocation.png" width="80%">
+
+<br><br>
+
+### 리뷰, 별점
+
+<br>
+
+<img src="/image/detailreview.gif" width="80%">
+
+<br><br>
 
 </div>
 
-<br>
+<br><br>
 
 <div align="center">
   
 ## 함께한 팀원들
+
 <br>
 
 #### 형준 : https://github.com/Limchard
