@@ -1,0 +1,226 @@
+<?xml version="1.0" ?>
+<SAVED_DATA>
+	<bookmarks>
+		<jdbcDriver className="org.apache.derby.jdbc.EmbeddedDriver" name="Apache Derby Embedded JDBC Driver" type="DERBY" version="10.3.1.4 - (561794)">
+			<jar fileName="/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/com.quantum.derby_3.3.10/lib/derby.jar" />
+		</jdbcDriver>
+		<jdbcDriver className="com.mysql.cj.jdbc.Driver" name="MySQL Connector/J" type="MYSQL" version="mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09)">
+			<jar fileName="/Users/wlsvud5789/Documents/수업자료/mysql-connector-j-8.1.0.jar" />
+		</jdbcDriver>
+		<bookmark>
+			<name>(Internal) Derby</name>
+			<username>QUANTUM</username>
+			<password />
+			<prompt>false</prompt>
+			<connect>jdbc:derby:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/com.quantum.derby_3.3.10/data/quantum</connect>
+			<autoCommit>true</autoCommit>
+			<autoCommitPreference>Always True</autoCommitPreference>
+			<autoCommitIgnoreView>false</autoCommitIgnoreView>
+			<quoteAll>false</quoteAll>
+			<sendQueryAsIs>false</sendQueryAsIs>
+			<stripNewline>false</stripNewline>
+			<shutdownOnDisconnect>true</shutdownOnDisconnect>
+			<defaultEncoding />
+			<driver>org.apache.derby.jdbc.EmbeddedDriver</driver>
+			<type>DERBY</type>
+			<substituteVariables>false</substituteVariables>
+			<variablesRegexp>\$\{(.*?)\}</variablesRegexp>
+			<driverLocation>/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/com.quantum.derby_3.3.10/lib/derby.jar</driverLocation>
+			<Other_Schemas schemaRule="useAll" />
+			<quickList />
+			<queryList />
+		</bookmark>
+		<bookmark>
+			<name>mysql_devil</name>
+			<username>devil</username>
+			<password>a1234</password>
+			<prompt>false</prompt>
+			<connect>jdbc:mysql://localhost:3306/coffee?serverTimezone=Asia/Seoul</connect>
+			<autoCommit>true</autoCommit>
+			<autoCommitPreference>Always True</autoCommitPreference>
+			<autoCommitIgnoreView>false</autoCommitIgnoreView>
+			<quoteAll>false</quoteAll>
+			<sendQueryAsIs>false</sendQueryAsIs>
+			<stripNewline>false</stripNewline>
+			<shutdownOnDisconnect>false</shutdownOnDisconnect>
+			<defaultEncoding />
+			<driver>com.mysql.cj.jdbc.Driver</driver>
+			<type>MYSQL</type>
+			<substituteVariables>false</substituteVariables>
+			<variablesRegexp>\$\{(.*?)\}</variablesRegexp>
+			<driverLocation>/Users/wlsvud5789/Documents/수업자료/mysql-connector-j-8.1.0.jar</driverLocation>
+			<Other_Schemas schemaRule="useAll" />
+			<quickList />
+			<queryList>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 2)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 1)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 3)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 5)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 6)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 7)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 9)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 10)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 8)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 15)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 14)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 13)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 12)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM mbanswer WHERE (idx = 11)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM memboard WHERE (num = 10)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM memboard WHERE (num = 11)</queryString>
+				</query>
+				<query>
+					<queryString></queryString>
+				</query>
+				<query>
+					<queryString>UPDATE memboard SET subject = '나는 국밥이 좋아요ㅋㅋ' WHERE (num = 9) AND (subject = '나는 국밥쉐끼예요')</queryString>
+				</query>
+				<query>
+					<queryString>create table accom (accom_num smallint AUTO_INCREMENT primary key,
+business_id varchar(20),
+accom_name varchar(50),
+accom_category varchar(30),
+accom_photo varchar(300),
+accom_location varchar(300),
+accom_readcount int,
+accom_score double)</queryString>
+				</query>
+				<query>
+					<queryString>CREATE TABLE room (
+    room_num SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    room_name VARCHAR(20),
+    room_price INT,
+    room_minpeople INT,
+    room_maxpeople INT,
+    room_location VARCHAR(50),
+    room_photo VARCHAR(300),
+    room_info VARCHAR(2000),
+    accom_num SMALLINT,
+    FOREIGN KEY (accom_num) REFERENCES accom(accom_num)
+)</queryString>
+				</query>
+			</queryList>
+		</bookmark>
+		<bookmark>
+			<name>finalproject</name>
+			<username>Sist0615_1st</username>
+			<password>Tkddyd1109!#</password>
+			<prompt>false</prompt>
+			<connect>jdbc:mysql://finalproject-sist0615.crsfihj2wlpy.ap-northeast-2.rds.amazonaws.com</connect>
+			<autoCommit>true</autoCommit>
+			<autoCommitPreference>Always True</autoCommitPreference>
+			<autoCommitIgnoreView>false</autoCommitIgnoreView>
+			<quoteAll>false</quoteAll>
+			<sendQueryAsIs>false</sendQueryAsIs>
+			<stripNewline>false</stripNewline>
+			<shutdownOnDisconnect>false</shutdownOnDisconnect>
+			<defaultEncoding />
+			<driver>com.mysql.cj.jdbc.Driver</driver>
+			<type>MYSQL</type>
+			<substituteVariables>false</substituteVariables>
+			<variablesRegexp>\$\{(.*?)\}</variablesRegexp>
+			<driverLocation>/Users/wlsvud5789/Documents/수업자료/mysql-connector-j-8.1.0.jar</driverLocation>
+			<Other_Schemas schemaRule="useSelected">
+				<schema>null</schema>
+			</Other_Schemas>
+			<quickList />
+			<queryList>
+				<query>
+					<queryString>DELETE FROM review WHERE (review_num = 48)</queryString>
+				</query>
+				<query>
+					<queryString>UPDATE review SET review_score = 9 WHERE (review_num = 47) AND (review_score = 4.0)</queryString>
+				</query>
+				<query>
+					<queryString>UPDATE review SET review_score = 8.0 WHERE (review_num = 47) AND (review_score = 9.0)</queryString>
+				</query>
+				<query>
+					<queryString>UPDATE accom SET accom_score = 9.0 WHERE (accom_num = 4) AND (accom_score = 7.0)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM room WHERE (room_num = 54)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM room WHERE (room_num = 53)</queryString>
+				</query>
+				<query>
+					<queryString>delete from room</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM accom
+WHERE accom_num BETWEEN 1 AND 43</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM review</queryString>
+				</query>
+				<query>
+					<queryString>UPDATE accom SET accom_approval = 1 WHERE (accom_num = 46) AND (accom_approval = 0)</queryString>
+				</query>
+				<query>
+					<queryString>UPDATE room SET room_price = 125000 WHERE (room_num = 56) AND (room_price = 105000)</queryString>
+				</query>
+				<query>
+					<queryString>UPDATE accom SET accom_approval = 1 WHERE (accom_num = 49) AND (accom_approval = 0)</queryString>
+				</query>
+				<query>
+					<queryString>use finalproject</queryString>
+				</query>
+				<query>
+					<queryString>ALTER TABLE accom
+ADD CONSTRAINT fk_business
+FOREIGN KEY (business_id)
+REFERENCES businessman(business_id)</queryString>
+				</query>
+				<query>
+					<queryString>SELECT * FROM room WHERE accom_num = '1'</queryString>
+				</query>
+				<query>
+					<queryString>UPDATE accom SET accom_count = 0 WHERE (accom_num = 74) AND (accom_count = 2)</queryString>
+				</query>
+				<query>
+					<queryString>UPDATE accom SET accom_score = 0.0 WHERE (accom_num = 74) AND (accom_score = 7.8)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM review WHERE (review_num = 51)</queryString>
+				</query>
+				<query>
+					<queryString>DELETE FROM review WHERE (review_num = 56)</queryString>
+				</query>
+				<query>
+					<queryString>alter table accom drop accom_readcount</queryString>
+				</query>
+			</queryList>
+		</bookmark>
+	</bookmarks>
+</SAVED_DATA>
